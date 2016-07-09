@@ -1,0 +1,75 @@
+body {
+  background-color: green;
+}
+.left-block, .right-block {
+    border: 1px solid red;
+    background-color: blue;
+}
+
+.h2 {
+    color: green;
+}
+
+@media only screen and (max-width: 768px)
+{
+    .left-block {
+        background-color:yellow;
+    }
+    body {
+        background-color:pink;
+    }
+}
+
+@media only screen and (max-width: 375px)
+{
+    .left-block {
+        background-color:orange;
+    }
+    body {
+        background-color:yellow;
+    }
+}
+
+
+/*.body{
+  height: 100vh;
+  background-color: yellow;
+}
+.outer{
+  background-color:yellow;
+  padding: 50px;
+  border: 2px solid #000;
+}
+.pre-offset{
+  background-color:green;
+   border: 2px solid #000;
+}
+.offset{
+  background-color:pink;
+   border: 1px solid #000;
+}
+.navigation{
+  background-color:blue;
+  border: 2px solid #000;
+  padding: 25px
+}
+.jumbotron{
+  background-color:teal;
+  border: 2px solid #000;
+}
+.content{
+  background-color:red;
+  border: 2px solid #000;
+}
+.aside{
+  background-color:black;
+  border: 2px solid #000;
+}
+.footer{
+  background-color:orange;
+  border: 2px solid #000;
+}
+.promo{
+  background-color:yellow;
+  border: 2px solid #000;
+}*/
